@@ -17,7 +17,7 @@ export default css`
   }
 
   .preview {
-    background: var(--primary-color);
+    background: var(--background-color);
     cursor: pointer;
     overflow: hidden;
     position: relative;
@@ -141,7 +141,7 @@ export default css`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: var(--text-primary-color);
+    color: var(--primary-text-color);
   }
 
   .battery {
@@ -161,7 +161,7 @@ export default css`
   }
 
   .status-text {
-    color: var(--text-primary-color);
+    color: var(--primary-text-color);
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -181,13 +181,13 @@ export default css`
   .vacuum-name {
     text-align: center;
     font-weight: bold;
-    color: var(--text-primary-color);
+    color: var(--primary-text-color);
     font-size: 16px;
   }
 
   .not-available .offline {
     text-align: center;
-    color: var(--text-primary-color);
+    color: var(--primary-text-color);
     font-size: 16px;
   }
 
@@ -200,7 +200,7 @@ export default css`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    color: var(--text-primary-color);
+    color: var(--primary-text-color);
   }
 
   .stats-block {
@@ -220,7 +220,7 @@ export default css`
   }
 
   ha-icon {
-    color: #fff;
+    color: var(--primary-text-color);
   }
 
   .toolbar {
